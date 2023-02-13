@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232323;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, "Courier New", Courier, monospace;
+}
+
+#page {
+  background-color: #121212;
+  height: 100%;
+}
+#navBar {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navBar #logoBar {
+  width: 90px;
+  margin: 0 2rem;
+}
+
+.linksBar ul li {
+  margin: 0 2rem;
+  display: inline-block;
+}
+
+.linksBar ul li a {
+  color: #f5f5f5;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contentPage {
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mediasBar {
+  background-color: #232323;
+  border-radius: 50px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 100%;
+  padding: 40px 10px 30px 10px;
+  border-radius: 35px;
+}
+
+.mediasBar #myPhoto {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  max-height: 180px;
+}
+
+.mediasBar .name {
+  color: #f5f5f5;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.name h2 {
+  margin-top: 5px;
+}
+
+.name h3 {
+  margin-top: -42px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMedia a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.myContent {
+  margin-left: 260px;
+  padding: 0 2rem;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe h1 {
+  font-size: 35px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconSkills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 260px;
+}
+
+.box {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.box h2 {
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.box .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.box:hover .logo {
+  width: 3rem;
+  transform: translate(-25px, 75px);
+}
+
+.box .text {
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -100%;
+  transition: 0.5s ease-in-out;
+  padding: 70px 20px;
+}
+
+.box .text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.box:hover .text {
+  transform: translateX(100%);
+}
+
+.box .text {
+  color: #f5f5f5;
+  letter-spacing: 1px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
