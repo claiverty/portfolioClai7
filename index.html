@@ -21,7 +21,7 @@
         /></a>
         <div class="linksBar">
           <ul>
-            <li><a href="#">Contate-me</a></li>
+            <li><a href="./form.html">Contate-me</a></li>
           </ul>
         </div>
       </header>
@@ -179,13 +179,36 @@
               <div class="linkCard">
                 <a href="https://spfcfanpage.netlify.app/" target="_blank"><img src="./components/images/rede.png" width="22px" alt="siteLink"></a>
                 <a href="https://github.com/clai7/projetoFanPageSPFC" target="_blank"><img src="./components/images/github.png" width="22px" alt="githubLink"></a>
+               </div>
               </div>
-              </div>
-            </div>
+             </div>
             </div>
            </div>
+           <div class="contact">
+            <h2>Contate-me</h2>
+            <div class="form">
+              <form action="https://formsubmit.co/el/lapaso" method="POST">
+                
+                <label for="text">Nome</label>
+                <input type="text" name="name" placeholder="Seu nome" required>
+
+                <label for="text">Email</label>
+                <input type="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="text">Mensagem</label>
+                <textarea cols="250" rows="10" name="message" 
+                  placeholder="Digite sua mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+                
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
           </div>
         </div>
+       </div>
       </div>
     </main>
     </div>
