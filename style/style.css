@@ -177,6 +177,8 @@ body {
 }
 
 .box .text {
+  color: #f5f5f5;
+  letter-spacing: 1px;
   font-size: 10px;
   text-align: center;
   width: 100%;
@@ -200,11 +202,6 @@ body {
 
 .box:hover .text {
   transform: translateX(100%);
-}
-
-.box .text {
-  color: #f5f5f5;
-  letter-spacing: 1px;
 }
 
 /* Projetos */
