@@ -15,7 +15,10 @@ body {
 #page {
   background-color: #121212;
   height: 100%;
+  overflow-x: hidden;
 }
+
+/* Barra de Navegação */
 
 #navBar {
   height: 90px;
@@ -42,12 +45,14 @@ body {
   text-decoration: none;
 }
 
+/* Conteúdo da página */
 #contentPage {
   padding: 0 2rem 0 2rem;
   display: flex;
   flex-direction: column;
 }
 
+/* Barra lateral*/
 .mediasBar {
   background-color: #232323;
   border-radius: 50px;
@@ -56,7 +61,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 240px;
-  height: 100vh;
+  height: 100%;
   padding: 40px 10px 30px 10px;
   border-radius: 35px;
 }
@@ -78,7 +83,7 @@ body {
   margin-top: 5px;
 }
 
-.name h3 {
+.name .h2 {
   margin-top: -42px;
 }
 
@@ -91,7 +96,7 @@ body {
   color: #f5f5f5;
   text-decoration: none;
   font-size: 18px;
-  margin: 10px;
+  margin: -5px;
   display: flex;
   align-items: center;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -106,6 +111,7 @@ body {
   margin: 5px;
 }
 
+/* Meu Conteúdo */
 .myContent {
   margin-left: 260px;
   padding: 0 2rem;
@@ -115,6 +121,7 @@ body {
   align-items: center;
 }
 
+/* Sobre Mim */
 #aboutMe {
   text-align: center;
   display: flex;
@@ -126,7 +133,9 @@ body {
   font-size: 35px;
 }
 
+/* Habilidades */
 #skills {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,7 +207,9 @@ body {
   letter-spacing: 1px;
 }
 
+/* Projetos */
 #projects {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,7 +275,7 @@ body {
   padding: 3px;
 }
 
-/* Form */
+/* Form de contato */
 #contact {
   margin-top: 20px;
   color: #f5f5f5;
@@ -318,6 +329,31 @@ button:hover {
   padding: 8px;
   cursor: pointer;
   font-weight: 800;
+}
+
+/* Parte final */
+footer {
+  margin-top: 30px;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  color: #f5f5f5;
+  font-size: 13px;
+}
+
+footer p a {
+  color: #0e0e0e;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: #ff0000;
 }
 
 /* Scroll Bar */
