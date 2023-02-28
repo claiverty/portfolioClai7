@@ -61,7 +61,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 240px;
-  height: 100%;
+
   padding: 40px 10px 30px 10px;
   border-radius: 35px;
 }
@@ -268,6 +268,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .linkCard a {
   padding: 3px;
 }
@@ -282,7 +283,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  height: 100vh;
   justify-content: center;
 }
 
