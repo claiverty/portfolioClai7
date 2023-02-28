@@ -331,10 +331,10 @@ button:hover {
 /* Parte final */
 footer {
   margin-top: 30px;
-  background-color: #272727;
+  background-color: #000000;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 footer p {
@@ -343,7 +343,7 @@ footer p {
 }
 
 footer p a {
-  color: #0e0e0e;
+  color: #4e4e4e;
   font-size: 13px;
   font-weight: 800;
   text-decoration: none;
