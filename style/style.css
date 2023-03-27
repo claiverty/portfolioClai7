@@ -107,8 +107,9 @@ body {
   transform: translate(20px);
 }
 
-.socialMedia a img {
-  margin: 5px;
+.socialMedia a i {
+  font-size: 20px;
+  padding: 5px;
 }
 
 /* Meu Conteúdo */
@@ -270,7 +271,17 @@ body {
 }
 
 .linkCard a {
-  padding: 3px;
+  padding: 2px;
+}
+
+.linkCard a i {
+  font-size: 25px;
+  color: #f5f5f5;
+}
+
+.linkCard a i:hover {
+  color: #4e4e4e;
+  transition-duration: 0.3s;
 }
 
 /* Form de contato */

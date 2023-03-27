@@ -66,9 +66,18 @@
     flex-direction: row;
   }
 
-  .socialMedia a img {
-    width: 50px;
-    margin: 20px;
+  .socialMedia a:hover {
+    transform: none;
+  }
+
+  .socialMedia a i {
+    font-size: 55px;
+    padding: 20px;
+  }
+
+  .socialMedia a i:hover {
+    color: #4e4e4e;
+    transition-duration: 0.3s;
   }
 
   .socialMedia a p {
@@ -107,6 +116,20 @@
     font-size: 30px;
   }
 
+  .box .logo {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: none;
+    width: 6.5rem;
+    transition: none;
+  }
+
+  .box:hover .logo {
+    width: 6.5rem;
+    transform: none;
+  }
+
   .box .text {
     display: none;
   }
@@ -137,8 +160,8 @@
     display: none;
   }
 
-  .linkCard a img {
-    width: 50px;
+  .linkCard a i {
+    font-size: 50px;
     margin-right: 20px;
   }
 
@@ -170,8 +193,8 @@
     display: none;
   }
 
-  .socialMedia a img {
-    width: 40px;
+  .socialMedia a i {
+    font-size: 40px;
   }
 
   #aboutMe {
@@ -225,8 +248,8 @@
     font-size: 1.3rem;
   }
 
-  .socialMedia a img {
-    width: 30px;
+  .socialMedia a i {
+    font-size: 30px;
   }
 
   #aboutMe p {
@@ -263,13 +286,66 @@
     font-size: 25px;
   }
 
-  .linkCard a img {
-    width: 35px;
-    margin-right: 30px;
+  .linkCard a i {
+    font-size: 35px;
+    padding: 5px;
   }
 
   #contact {
     background-color: #121212;
     padding: 100px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .mediasBar .name {
+    font-size: 1rem;
+  }
+
+  .socialMedia a i {
+    font-size: 30px;
+    padding: 12px;
+  }
+
+  #aboutMe p {
+    font-size: 15px;
+  }
+
+  #skills p {
+    font-size: 15px;
+    padding: 80px;
+  }
+
+  .box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .box h2 {
+    font-size: 17px;
+  }
+
+  .box .logo {
+    width: 60px;
+  }
+  .box:hover .logo {
+    width: 60px;
+  }
+
+  #projects p {
+    font-size: 17px;
+    padding: 80px;
+  }
+
+  .cardProjects {
+    width: 270px;
+  }
+
+  .informCard h4 {
+    font-size: 20px;
+  }
+
+  #contact {
+    padding: 20px;
   }
 }
