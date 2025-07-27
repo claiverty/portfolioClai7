@@ -206,9 +206,9 @@
   }
 
   #aboutMe p {
-    margin-top: -1.5rem;
+    
     font-size: 20px;
-    padding: 30px;
+    
   }
 
   #skills h1 {
@@ -253,7 +253,7 @@
   }
 
   #aboutMe p {
-    padding: 80px;
+    max-width:70%;
   }
 
   #skills p {
